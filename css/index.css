@@ -504,4 +504,17 @@ h5 {
         align-items: center;
         margin: 10%;
     }
+    .child {
+        align-items: center;
+    }
+    .children.content-width {
+        justify-content: center;
+        align-items: center;
+    }
+    .child:nth-child(odd) {
+        margin-right: 0;
+    }
+    .child:nth-child(even) {
+        margin-left: 0;
+    }
 }
